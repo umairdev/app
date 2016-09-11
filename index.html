@@ -63,16 +63,6 @@
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         app.initialize();
-        for (var i=0; i < physician_obj.physician.length; i++) {
-            document.getElementById("demo").innerHTML += physician_obj.physician[i].firstName + " " + physician_obj.physician[i].lastName + " ";
-            var clinic_name = physician_obj.physician[i].clinic;
-            var locationcheck = 0;
-            for (var j=0; j < clinic_obj.clinic.length; j++) {
-                if (clinic_obj.clinic[j].clinicName == clinic_name) {
-                    document.getElementById("demo").innerHTML += "<b>Address</b>: " + clinic_obj.clinic[j].streetAddress + " </br>";
-                }
-            }
-        }
     </script>
 </body>
 
