@@ -37,28 +37,27 @@
     * Create your own at http://cspisawesome.com
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
-
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="css/my-app.css">
     <title>Texas Medical Center</title>
 </head>
 
 <body>
-    <!-- <div class="app">
-        <h1>Welcome</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">NOW</p>
-            <p id="demo"></p>
-        </div>
-    </div> -->
     <div id="loading" class="splash">
         <img src="img/utp-logo.png">
         <img class="loading" src="img/66.gif">
         <p class="blink">Loading...</p>
     </div>
     <div id="deviceready" class="home">
+        <button class=""
         <p id="demo"></p>
     </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
